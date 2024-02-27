@@ -3,6 +3,7 @@
 import VideoDisplay from './Components/VideoDisplay';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import BottomNavbar from './Components/BottomNavbar';
 
 
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
       <Route path='/videodisplay' element={<VideoDisplay/>}/>
       <Route path='*' element={<Home/>}/>
     </Routes>
+    {/* <BottomNavbar/> */}
   </Router>
 )
 }
