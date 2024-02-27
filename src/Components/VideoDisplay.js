@@ -8,8 +8,8 @@ import ReactPlayer from 'react-player';
 const VideoDisplay = () => {
   const videos=[
     {
-      "URL": video1,
-      "title": "This is SunLight Video",
+      "URL": video4,
+      "title": "This is Nature Video",
     },
     {
       "URL": video2,
@@ -20,8 +20,8 @@ const VideoDisplay = () => {
       "title": "This is Pebbles Video",
     },
     {
-      "URL": video4,
-      "title": "This is Nature Video",
+      "URL": video1,
+      "title": "This is SunLight Video",
     }
   ];
 
